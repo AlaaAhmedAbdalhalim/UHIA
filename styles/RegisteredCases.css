@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    direction: rtl;
+    
+}
+:root{
+    --primary-color: #0A76B6;
+    --hover-color:#096295;
+    --text-color:#ffffff;
+}
+
+.nav{
+    overflow: hidden;
+background-color: var(--hover-color);
+width: 100%;
+position: fixed;
+top: 0;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+
+}
+.uhialogo{
+    width: 4rem;
+  
+}
+.searchBar{
+   border: none;
+   border-radius: 0rem 0.2rem 0.2rem 0rem;
+    padding: 0.4rem 0.4rem 0.4rem 0rem;
+    width: 20%;
+    background-color: rgb(236, 236, 236);
+}
+.searchIcon{
+    background-color: var(--primary-color);
+    padding: 0.8rem;
+    border-radius: 0.2rem 0rem 0rem 0.2rem;
+    border: none;
+}
+button{
+    border: none;
+    background-color:var(--text-color);
+    padding: 0.7rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    border-radius: 0.4rem;
+    font-size: 0.7rem;
+}
+button:hover{
+    background-color:transparent;
+    border: 0.1rem solid var(--text-color);
+    color: var(--text-color);
+    cursor: pointer;
+}
+.search img:hover{
+background-color:var(--primary-color); 
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+}
+a{
+    color: var(--text-color) !important;
+}
+.addCase{
+    color: var(--primary-color) !important;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+h5{
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+a:hover {
+    color: var(--primary-color) !important;
+    cursor: pointer;
+}
+.mt-5{
+    margin-top: 8rem !important;
+}
+.searchIcon:hover{
+    content: url('../images/SEARCH-BLUE.svg');
+    background-color: var(--text-color);
+}
+.editIcon:hover{
+    cursor: pointer;
+}
